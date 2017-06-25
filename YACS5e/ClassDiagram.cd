@@ -3,115 +3,114 @@
   <Class Name="YACS5e.Character">
     <Position X="15.5" Y="3.5" Width="2.75" />
     <TypeIdentifier>
-      <HashCode>AEAAIEBAQAAAAAEAIAAABIAAAAAEAAAAACAIJRCAIAE=</HashCode>
+      <HashCode>AEAAAFBAQAAAAAkgJAAABIAAAAAEAAAAACAIJBCAIAE=</HashCode>
       <FileName>Character.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="YACS5e.BaseStatsType">
-    <Position X="5.5" Y="12.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AQAAAAAAAAAAAABAAAAAAAAAAIAAAAAAAAAAAAAAAIA=</HashCode>
-      <FileName>Race.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="YACS5e.TraitClassType">
-    <Position X="7.75" Y="11.25" Width="1.75" />
+  <Class Name="YACS5e.ClassTraits">
+    <Position X="8" Y="10.75" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>TraitClassType.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="YACS5e.Bonus">
-    <Position X="9.75" Y="11.25" Width="1.75" />
+    <Position X="6.25" Y="10.75" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAIAABAAAAAAAAAAAAAABAAAAAAAACAAAAgAAAQAAAA=</HashCode>
       <FileName>TraitClassType.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="YACS5e.Race">
-    <Position X="9.5" Y="6.25" Width="3" />
+    <Position X="10.25" Y="6.25" Width="3" />
     <TypeIdentifier>
-      <HashCode>AAQEAAgACAABAAgAABAAAIAAAAAAAAAgAQAAAAAAQAA=</HashCode>
-      <FileName>Race.cs</FileName>
-      <NewMemberFileName>Elf.cs</NewMemberFileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="YACS5e.Subrace">
-    <Position X="5.5" Y="6.25" Width="3" />
-    <TypeIdentifier>
-      <HashCode>AAABAAAAAAAAAAAAAAAAAAAABAAABQAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAQEAAgACAABAAgAABAAAIAAAAAAAAAAAQAAAAAAQAA=</HashCode>
       <FileName>Race.cs</FileName>
       <NewMemberFileName>Elf.cs</NewMemberFileName>
     </TypeIdentifier>
   </Class>
   <Class Name="YACS5e.CharacterClass">
-    <Position X="21.25" Y="6.25" Width="3" />
+    <Position X="21.25" Y="6" Width="2.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAJAAAgAAAAAgBAAAAIAAgAAAAAAAARAAAAAAAAE=</HashCode>
+      <HashCode>AAAAAJAAAgAAAAAgBAAAAIIAAAAAAAAAARAAAAAAAAE=</HashCode>
       <FileName>CharacterClass.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="YACS5e.SubClass">
-    <Position X="24.75" Y="6.25" Width="3" />
-    <TypeIdentifier>
-      <HashCode>AAAAABAAAAAAAAAIBAAAAIIAAAAAAAAAAQAAAAAAAAA=</HashCode>
-      <FileName>CharacterClass.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="YACS5e.Skill">
-    <Position X="21.25" Y="10" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAIABAAAAAAAAAAAACAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CharacterClass.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="YACS5e.Background">
-    <Position X="14.75" Y="9.5" Width="2" />
-    <TypeIdentifier>
-      <HashCode>AAAAABAAAABAAAwABAAAAAAAAABBAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Background.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="YACS5e.Campaign">
-    <Position X="21.25" Y="0.75" Width="2.75" />
+    <Position X="19.75" Y="0.5" Width="2.75" />
     <TypeIdentifier>
       <HashCode>AAIAAAAAQIBAAAAAAAAAQIIAAAABAAQAAAAAAAAAAAA=</HashCode>
       <FileName>Campaign.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="YACS5e.User">
-    <Position X="26.75" Y="0.75" Width="2" />
+    <Position X="25" Y="0.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAQgAAAAAAACAAAAAABAAAAAAACgAAAAAAAAIgoAEwA=</HashCode>
       <FileName>User.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="YACS5e.HitPoints">
+    <Position X="15.5" Y="10.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AABCAAAgiIAAggAQAAAAAEAAiAIAAAAAMBAAAAAAAAA=</HashCode>
+      <FileName>HitPoints.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="YACS5e.Skill">
+    <Position X="21.25" Y="10" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAgAEAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Skill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="YACS5e.BaseStats">
+    <Position X="11" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAABAAAAAAAAAAIAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>BaseStats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Class Name="YACS5e.CampaignCharacter">
-    <Position X="24.5" Y="0.75" Width="1.75" />
+    <Position X="22.5" Y="1" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAIAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAIAAAEAA=</HashCode>
-      <FileName>Campaign.cs</FileName>
+      <FileName>CampaignCharacter.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="YACS5e.HitPoints">
-    <Position X="17.25" Y="9.5" Width="2" />
+  <Struct Name="YACS5e.HitDice">
+    <Position X="17.5" Y="11.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AABCEAAAAIAAggAQAAAAAEAAiAIAABAAEIABAAAAAAA=</HashCode>
-      <FileName>Character.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Struct Name="YACS5e.Ability">
-    <Position X="5.5" Y="9" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAACAAgAAAAAIBAAAAAAAAAAEAAAgAAAAAAA=</HashCode>
-      <FileName>Race.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>HitPoints.cs</FileName>
     </TypeIdentifier>
   </Struct>
-  <Enum Name="YACS5e.E_Abil">
-    <Position X="7.5" Y="9" Width="1.5" />
+  <Struct Name="YACS5e.Ability">
+    <Position X="6.25" Y="6.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAgAEAAAAAAABAAAAAAAAYQAAAAAAAAAA=</HashCode>
-      <FileName>Race.cs</FileName>
+      <HashCode>AAAAAAAAAACAAgAAAAAIBAAAAAAAAAAEAAAgAAAAAAA=</HashCode>
+      <FileName>Ability.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="YACS5e.E_SkillProf">
+    <Position X="23.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAQAAAAABAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Skill.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="YACS5e.E_Advantage">
+    <Position X="23.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAQAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Skill.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="YACS5e.E_Abil">
+    <Position X="7.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAABAAgAAAAAAAAAACAAQAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Ability.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Font Name="Segoe UI" Size="9" />

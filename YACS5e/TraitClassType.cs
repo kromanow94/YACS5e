@@ -5,10 +5,10 @@ using System.Text;
 
 namespace YACS5e
 {
-    public class TraitClassType
+    public class ClassTraits
     {
         private String flavour_text;
-        private Bonus bonus;
+        private Bonus bonus { get; }
     }
 
     internal class Bonus
