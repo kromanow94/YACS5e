@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="YACS5e.Character">
+    <Position X="15.5" Y="3.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AEAAIEBAQAAAAAEAIAAABIAAAAAEAAAAACAIJRCAIAE=</HashCode>
+      <FileName>Character.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="YACS5e.BaseStatsType">
+    <Position X="5.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAABAAAAAAAAAAIAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Race.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="YACS5e.TraitClassType">
+    <Position X="7.75" Y="11.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TraitClassType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="YACS5e.Bonus">
+    <Position X="9.75" Y="11.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAABAAAAAAAAAAAAAABAAAAAAAACAAAAgAAAQAAAA=</HashCode>
+      <FileName>TraitClassType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="YACS5e.Race">
+    <Position X="9.5" Y="6.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAQEAAgACAABAAgAABAAAIAAAAAAAAAgAQAAAAAAQAA=</HashCode>
+      <FileName>Race.cs</FileName>
+      <NewMemberFileName>Elf.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="YACS5e.Subrace">
+    <Position X="5.5" Y="6.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAABAAABQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Race.cs</FileName>
+      <NewMemberFileName>Elf.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="YACS5e.CharacterClass">
+    <Position X="21.25" Y="6.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAJAAAgAAAAAgBAAAAIAAgAAAAAAAARAAAAAAAAE=</HashCode>
+      <FileName>CharacterClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="YACS5e.SubClass">
+    <Position X="24.75" Y="6.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAIBAAAAIIAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>CharacterClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="YACS5e.Skill">
+    <Position X="21.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIABAAAAAAAAAAAACAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CharacterClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="YACS5e.Background">
+    <Position X="14.75" Y="9.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAABAAAwABAAAAAAAAABBAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Background.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="YACS5e.Campaign">
+    <Position X="21.25" Y="0.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAQIBAAAAAAAAAQIIAAAABAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Campaign.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="YACS5e.User">
+    <Position X="26.75" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQgAAAAAAACAAAAAABAAAAAAACgAAAAAAAAIgoAEwA=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="YACS5e.CampaignCharacter">
+    <Position X="24.5" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAIAAAEAA=</HashCode>
+      <FileName>Campaign.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="YACS5e.HitPoints">
+    <Position X="17.25" Y="9.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AABCEAAAAIAAggAQAAAAAEAAiAIAABAAEIABAAAAAAA=</HashCode>
+      <FileName>Character.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="YACS5e.Ability">
+    <Position X="5.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAgAAAAAIBAAAAAAAAAAEAAAgAAAAAAA=</HashCode>
+      <FileName>Race.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="YACS5e.E_Abil">
+    <Position X="7.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAEAAAAAAABAAAAAAAAYQAAAAAAAAAA=</HashCode>
+      <FileName>Race.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

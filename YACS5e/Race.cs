@@ -6,13 +6,96 @@ using System.Text;
 namespace YACS5e
 {
 
-    public interface Race
+    public class Race
     {
-        BaseStatsType BaseStats { get; set; }
-        SubRace SubRace { get; set; }
-        System.Collections.Generic.Dictionary<E_Attr, Attribute> BaseAttr { get; set; }
-        Dictionary<String, TraitClassType> Traits { get; set; }
-        System.Collections.Generic.List<string> getLanguages();
+        private Subrace _subRace;
+        private BaseStatsType _baseStats;
+        private System.Collections.Generic.List<String> _languages;
+        private Dictionary<String, TraitClassType> _traits;
+        private System.Collections.Generic.Dictionary<YACS5e.E_Abil, Ability> _baseAbilities;
+        private String _raceName;
+
+        public Race(string raceName)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public BaseStatsType baseStats
+        {
+            get
+            {
+                throw new NotImplementedException();
+            }
+
+            set
+            {
+                throw new NotImplementedException();
+            }
+        }
+
+        public System.Collections.Generic.Dictionary<YACS5e.E_Abil, Ability> baseAbilities
+        {
+            get
+            {
+                throw new NotImplementedException();
+            }
+
+            set
+            {
+                throw new NotImplementedException();
+            }
+        }
+
+        public Subrace subRace
+        {
+            get
+            {
+                throw new NotImplementedException();
+            }
+
+            set
+            {
+                throw new NotImplementedException();
+            }
+
+        }
+
+        public Dictionary<string, TraitClassType> traits
+        {
+            get
+            {
+                throw new NotImplementedException();
+            }
+
+            set
+            {
+                throw new NotImplementedException();
+            }
+        }
+
+        public String raceName
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+
+            set
+            {
+            }
+        }
+
+        public System.Collections.Generic.List<string> languages
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+
+            set
+            {
+            }
+        }
     }
 
     public class BaseStatsType
@@ -20,7 +103,7 @@ namespace YACS5e
         private int _baseSpeed;
         private int _darkvision;
 
-        public int BaseSpeed
+        public int baseSpeed
         {
             get
             {
@@ -32,7 +115,7 @@ namespace YACS5e
             }
         }
 
-        public int Darkvision
+        public int darkvision
         {
             get
             {
@@ -45,12 +128,43 @@ namespace YACS5e
         }
     }
 
-    public interface SubRace
+    public class Subrace
     {
-        System.Collections.Generic.Dictionary<YACS5e.E_Attr, Attribute> SubAttr { get; set; }
+        private System.Collections.Generic.Dictionary<YACS5e.E_Abil, YACS5e.Ability> _subAbilities;
+        private String _subRaceName;
+
+        public Subrace(string subRaceName)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public Dictionary<E_Abil, Ability> subAbilities
+        {
+            get
+            {
+                throw new NotImplementedException();
+            }
+
+            set
+            {
+                throw new NotImplementedException();
+            }
+        }
+
+        public string subRaceName
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+
+            set
+            {
+            }
+        }
     }
 
-    public enum E_Attr
+    public enum E_Abil
     {
         strength,
         inteligence,
@@ -60,20 +174,20 @@ namespace YACS5e
         charisma
     }
 
-    public struct Attribute
+    public struct Ability
     {
         private int _score;
         private int _mod;
         private int _save;
 
-        public Attribute(int score)
+        public Ability(int score)
         {
             _score = score;
             _mod = -100;
             _save = -100;
         }
 
-        public int Score
+        public int score
         {
             get
             {
@@ -81,7 +195,7 @@ namespace YACS5e
             }
         }
 
-        public int Save
+        public int save
         {
             get
             {
@@ -89,7 +203,7 @@ namespace YACS5e
             }
         }
 
-        public int Mod
+        public int mod
         {
             get
             {

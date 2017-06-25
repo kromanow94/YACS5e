@@ -7,7 +7,7 @@ namespace YACS5e
 {
     public class TraitClassType
     {
-        private String _flavour_text;
+        private String flavour_text;
         private Bonus bonus;
     }
 
