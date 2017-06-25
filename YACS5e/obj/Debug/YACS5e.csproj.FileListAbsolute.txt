@@ -1,0 +1,8 @@
+C:\Users\KROMANOW\Desktop\IO\UML Visual\YACS5e\YACS5e\bin\Debug\YACS5e.exe.config
+C:\Users\KROMANOW\Desktop\IO\UML Visual\YACS5e\YACS5e\bin\Debug\YACS5e.exe
+C:\Users\KROMANOW\Desktop\IO\UML Visual\YACS5e\YACS5e\bin\Debug\YACS5e.pdb
+C:\Users\KROMANOW\Desktop\IO\UML Visual\YACS5e\YACS5e\obj\Debug\YACS5e.csprojResolveAssemblyReference.cache
+C:\Users\KROMANOW\Desktop\IO\UML Visual\YACS5e\YACS5e\obj\Debug\YACS5e.Properties.Resources.resources
+C:\Users\KROMANOW\Desktop\IO\UML Visual\YACS5e\YACS5e\obj\Debug\YACS5e.csproj.GenerateResource.Cache
+C:\Users\KROMANOW\Desktop\IO\UML Visual\YACS5e\YACS5e\obj\Debug\YACS5e.exe
+C:\Users\KROMANOW\Desktop\IO\UML Visual\YACS5e\YACS5e\obj\Debug\YACS5e.pdb
